@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the top */
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.left-info {
+  width: 65%; /* Adjust width as needed */
+}
+
+.left-info h3 {
+  margin-top: 0; /* Remove default margin */
+}
+
+.left-info p {
+  text-align: justify; /* Justify paragraph text */
+}
+
+.right-info {
+  width: 30%; /* Adjust width as needed */
+}
+
+.right-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.right-info ul li {
+  margin-bottom: 10px;
+}
+
+.right-info ul li a {
+  text-decoration: none;
+  color: #007bff; /* Link color */
+}
+
+.right-info ul li a:hover {
+  text-decoration: underline;
+}
