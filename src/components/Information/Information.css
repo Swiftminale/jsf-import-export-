@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 20px;
-  border: 1px solid #ddd;
-  margin-top: 15px;
+  border: 0px solid #ddd;
+  margin-top: 25px;
   flex-wrap: wrap;
 }
 
@@ -37,7 +37,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.55);
 }
 
-.right-info ul li a {
+.right-info ul li tag {
   text-decoration: none;
   color: #007bff;
 }

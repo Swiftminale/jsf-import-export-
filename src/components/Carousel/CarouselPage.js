@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import img0 from "../../assets/img/logo/image.png";
-import img1 from "../../assets/img/Little-Feed-Co.jpg";
-import img2 from "../../assets/img/poultry-feed-production-buisness.jpg";
-import img3 from "../../assets/img/png-clipart-chicken-duck-poultry-fodder-farm-chicken-coop-food-company.png";
+import img1 from "../../assets/img/img2.jpg";
+import img2 from "../../assets/img/img1.jpg";
+import img3 from "../../assets/img/img4.jpg";
 import "./CarouselPage.css";
 
 function CarouselPage() {

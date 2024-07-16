@@ -22,7 +22,7 @@
 .carousel-img img {
   display: block;
   width: 100%;
-  height: auto; /* Maintain aspect ratio */
+  height: 600px; /* Maintain aspect ratio */
 }
 
 @media (max-width: 768px) {

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Information.css"; // Import the CSS file for styles
-import linkimg1 from "../../assets/img/Little-Feed-Co.jpg"; // Import the image file
+import linkimg1 from "../../assets/img/Little-Feed-Co.jpg";
+import linkimg2 from "../../assets/img/img1.jpg";
+import linkimg3 from "../../assets/img/img2.jpg"; // Import the image file
 
 function Information() {
   return (
@@ -31,37 +33,43 @@ function Information() {
       <div className="right-info">
         <ul>
           <li>
-            <a href="/">
+            <div className="tag">
               <div className="image-wrapper">
                 <img src={linkimg1} alt="placeholder" className="image-small" />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                  ac nisl eget urna vestibulum.
+                  "Dedicated to nourishing farms and feeding futures, our
+                  commitment to quality starts from the ground up. From the
+                  heart of our coops to the tables of our customers, trust in
+                  every feed."
                 </p>
               </div>
-            </a>
+            </div>
           </li>
           <li>
-            <a href="/">
+            <div>
               <div className="image-wrapper">
-                <img src={linkimg1} alt="placeholder" className="image-small" />
+                <img src={linkimg2} alt="placeholder" className="image-small" />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                  ac nisl eget urna vestibulum.
+                  "At JSF, we believe in more than just feeding chickens; we
+                  believe in cultivating healthier flocks and stronger
+                  communities. With every grain, we ensure farms thrive and
+                  families are nourished."
                 </p>
               </div>
-            </a>
+            </div>
           </li>
           <li>
-            <a href="/">
+            <div>
               <div className="image-wrapper">
-                <img src={linkimg1} alt="placeholder" className="image-small" />
+                <img src={linkimg3} alt="placeholder" className="image-small" />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                  ac nisl eget urna vestibulum.
+                  "From our fields to your flocks, every feathered friend
+                  deserves the best. With a passion for poultry and a dedication
+                  to excellence, we deliver nutrition that keeps chickens
+                  clucking and customers smiling."
                 </p>
               </div>
-            </a>
+            </div>
           </li>
         </ul>
       </div>
