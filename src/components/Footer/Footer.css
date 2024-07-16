@@ -5,4 +5,50 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  margin: 20px;
+}
+
+.shadow {
+  padding: 20px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .d-flex.justify-content-between {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .d-flex.justify-content-between div {
+    margin-bottom: 10px;
+  }
+
+  .d-flex.align-items-center {
+    flex-direction: column;
+  }
+
+  .d-flex.align-items-center a {
+    margin-bottom: 10px;
+  }
+
+  .d-flex.align-items-center small {
+    margin-top: 10px;
+  }
+
+  .d-flex {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .d-flex.justify-content-between {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .Container {
+    padding: 10px;
+  }
 }

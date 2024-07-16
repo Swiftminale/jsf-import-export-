@@ -3,8 +3,9 @@
   justify-content: space-between;
   align-items: flex-start; /* Align items to the top */
   padding: 20px;
-  border: 1px;
+  border: 1px solid #ddd;
   margin-top: 15px;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 .left-info {
@@ -39,4 +40,32 @@
 
 .right-info ul li a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-info,
+  .right-info {
+    width: 100%; /* Full width on smaller screens */
+  }
+
+  .right-info {
+    margin-top: 20px; /* Add space between sections */
+  }
+}
+
+@media (max-width: 576px) {
+  .left-info h3,
+  .right-info h4 {
+    font-size: 1.25rem; /* Adjust font size for smaller screens */
+  }
+
+  .left-info p,
+  .right-info p {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
 }

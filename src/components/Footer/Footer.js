@@ -1,6 +1,7 @@
 import React from "react";
 import { CDBBox, CDBBtn, CDBIcon } from "cdbreact";
 import "./Footer.css";
+
 export const Footer = () => {
   return (
     <div className="Container">
@@ -38,4 +39,5 @@ export const Footer = () => {
     </div>
   );
 };
+
 export default Footer;

@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../assets/img/logo/image.png";
+
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -10,7 +17,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-center">
-        <ul className="nav-links">
+        <ul className={`nav-links ${isOpen ? "open" : ""}`}>
           <li>
             <a href="/products">Products</a>
           </li>
@@ -22,15 +29,11 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      {/* <div className="navbar-right">
-        <a href="/cart" className="cart-icon">
-          <i className="fas fa-shopping-cart"></i>
-          <span className="cart-count">0</span>
-        </a>
-        <a href="/account" className="user-icon">
-          <i className="fas fa-user"></i>
-        </a>
-      </div> */}
+      <div className="navbar-right">
+        <div className="hamburger-menu" onClick={toggleMenu}>
+          &#9776;
+        </div>
+      </div>
     </nav>
   );
 };
