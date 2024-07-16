@@ -59,7 +59,7 @@
   }
 
   .hamburger-menu {
-    display: block;
+    display: flex;
     color: #0c0c0c;
     font-size: 1.5rem;
     cursor: pointer;
