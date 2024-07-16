@@ -1,5 +1,6 @@
 import React from "react";
 import "./Information.css"; // Import the CSS file for styles
+import linkimg1 from "../../assets/img/Little-Feed-Co.jpg"; // Import the image file
 
 function Information() {
   return (
@@ -31,8 +32,8 @@ function Information() {
         <ul>
           <li>
             <a href="/">
-              <div>
-                <h4>Link 1</h4>
+              <div className="image-wrapper">
+                <img src={linkimg1} alt="placeholder" className="image-small" />
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                   ac nisl eget urna vestibulum.
@@ -42,8 +43,8 @@ function Information() {
           </li>
           <li>
             <a href="/">
-              <div>
-                <h4>Link 2</h4>
+              <div className="image-wrapper">
+                <img src={linkimg1} alt="placeholder" className="image-small" />
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                   ac nisl eget urna vestibulum.
@@ -53,8 +54,8 @@ function Information() {
           </li>
           <li>
             <a href="/">
-              <div>
-                <h4>Link 3</h4>
+              <div className="image-wrapper">
+                <img src={linkimg1} alt="placeholder" className="image-small" />
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                   ac nisl eget urna vestibulum.
