@@ -13,7 +13,7 @@ export const Footer = () => {
           <div className="d-flex align-items-center">
             <a href="/" className="d-flex align-items-center p-0 text-dark">
               <img alt="logo" src={logo} width="90px" />
-              <span className="ms-4 h5 mb-0 font-weight-bold">JFS</span>
+              {/* <span className="ms-4 h5 mb-0 font-weight-bold">JFS</span> */}
             </a>
             <small className="ms-2">
               &copy; JFS, 2024. All rights reserved.

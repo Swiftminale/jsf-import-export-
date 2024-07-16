@@ -1,14 +1,17 @@
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
   color: #0c0c0c;
   padding: 1rem;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.55);
 }
 
 .logo img {
@@ -29,7 +32,7 @@
 }
 
 .navbar-center .nav-links a {
-  color: #0c0c0c;
+  color: #052b0b;
   text-decoration: none;
 }
 
